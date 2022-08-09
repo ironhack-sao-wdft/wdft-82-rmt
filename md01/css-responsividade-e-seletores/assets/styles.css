@@ -1,0 +1,64 @@
+/* .lista li {
+  color: red;
+} */
+
+.lista > li {
+  color: red;
+}
+
+#linha {
+  background-color: blue;
+}
+
+/* div {
+  background-color: green;
+} */
+
+#linha + div {
+  background-color: yellow;
+}
+
+button[type="button"] {
+  color: brown;
+}
+
+.card {
+  width: 50px;
+  height: 50px;
+  background-color: cornflowerblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: cornflowerblue;
+}
+
+.main-block {
+  width: 50%vw;
+  height: 50%vh;
+  background-color: darkgray;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: rgb(84, 229, 27);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(229, 27, 192);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(25, 28, 215);
+  }
+}
