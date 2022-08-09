@@ -1,0 +1,25 @@
+/* Seletor de tag - aplica em todas as tags do arquivo */
+
+h1 {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+/* Seletor por ID */
+
+#titulo {
+  color: blue;
+}
+
+/* Seletor por classes */
+
+.container {
+  background-color: brown;
+  height: 50px;
+  width: 50px;
+
+  margin-bottom: 5px;
+}
