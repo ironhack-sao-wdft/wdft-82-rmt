@@ -7,6 +7,7 @@
 // root.appendChild(h1);
 
 const root = document.getElementById("root");
+
 const p = React.createElement("p", { children: "P dentro do H1" });
 const h1 = React.createElement("h1", {
   children: "Hello, world!",
