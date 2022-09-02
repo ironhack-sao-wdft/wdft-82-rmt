@@ -1,0 +1,13 @@
+.show {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.noGap {
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}

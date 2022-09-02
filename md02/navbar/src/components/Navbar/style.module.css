@@ -1,0 +1,15 @@
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#h1 {
+  color: red;
+}
