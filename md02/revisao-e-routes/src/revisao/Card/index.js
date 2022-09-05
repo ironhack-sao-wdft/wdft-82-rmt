@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Card(props) {
   return (
     <>
@@ -10,14 +12,9 @@ export function Card(props) {
           <p className="card-text">{props.moviesInfo.overview}</p>
         </div>
 
-        <button
-          className="btn btn-primary"
-          onClick={() => {
-            props.handleButton(props.moviesInfo);
-          }}
-        >
-          Ver mais informações
-        </button>
+        <Link to={`/movies/${props.moviesInfo.id}`}>
+          <button className="btn btn-primary">Ver mais informações</button>
+        </Link>
       </div>
     </>
   );
